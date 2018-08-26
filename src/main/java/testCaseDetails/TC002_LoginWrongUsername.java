@@ -21,10 +21,13 @@ public class TC002_LoginWrongUsername extends CommonMethod {
 		startApp("chrome", "http://leaftaps.com/opentaps");
 		WebElement eleUserName = locateElement("id","username");
 		type(eleUserName, "DemoSalesManagerrr");
+		
+		
 		WebElement elePassword = locateElement("id","password");
 		type(elePassword, "crmsfa");
 		WebElement eleLogin = locateElement("class","decorativeSubmit");
 		click(eleLogin);
+		
 		
 		
 	}

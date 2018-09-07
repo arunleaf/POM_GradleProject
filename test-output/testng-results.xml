@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60909" started-at="2018-09-07T10:51:45Z" finished-at="2018-09-07T10:52:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60909" started-at="2018-09-07T10:51:45Z" finished-at="2018-09-07T10:52:46Z">
+      <class name="testCaseDetails.TC002_LoginWrongUsername">
+        <test-method status="PASS" signature="startResult()[pri:0, instance:testCaseDetails.TC002_LoginWrongUsername@544fe44c]" name="startResult" is-config="true" duration-ms="581" started-at="2018-09-07T10:51:45Z" finished-at="2018-09-07T10:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startResult -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testCaseDetails.TC002_LoginWrongUsername@544fe44c]" name="setData" is-config="true" duration-ms="1" started-at="2018-09-07T10:51:45Z" finished-at="2018-09-07T10:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testCaseDetails.TC002_LoginWrongUsername@544fe44c]" name="startTestCase" is-config="true" duration-ms="36" started-at="2018-09-07T10:51:46Z" finished-at="2018-09-07T10:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="LoginFailwithUsername(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCaseDetails.TC002_LoginWrongUsername@544fe44c]" name="LoginFailwithUsername" duration-ms="17400" started-at="2018-09-07T10:51:46Z" data-provider="TestSheet" finished-at="2018-09-07T10:52:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[following error occurred during login: User not found.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFailwithUsername -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testCaseDetails.TC002_LoginWrongUsername@544fe44c]" name="startTestCase" is-config="true" duration-ms="1" started-at="2018-09-07T10:52:03Z" finished-at="2018-09-07T10:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="LoginFailwithUsername(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCaseDetails.TC002_LoginWrongUsername@544fe44c]" name="LoginFailwithUsername" duration-ms="12756" started-at="2018-09-07T10:52:03Z" data-provider="TestSheet" finished-at="2018-09-07T10:52:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[username was empty reenter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFailwithUsername -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testCaseDetails.TC002_LoginWrongUsername@544fe44c]" name="startTestCase" is-config="true" duration-ms="0" started-at="2018-09-07T10:52:16Z" finished-at="2018-09-07T10:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="LoginFailwithUsername(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCaseDetails.TC002_LoginWrongUsername@544fe44c]" name="LoginFailwithUsername" duration-ms="15616" started-at="2018-09-07T10:52:16Z" data-provider="TestSheet" finished-at="2018-09-07T10:52:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password was empty reenter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFailwithUsername -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testCaseDetails.TC002_LoginWrongUsername@544fe44c]" name="startTestCase" is-config="true" duration-ms="1" started-at="2018-09-07T10:52:32Z" finished-at="2018-09-07T10:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="LoginFailwithUsername(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCaseDetails.TC002_LoginWrongUsername@544fe44c]" name="LoginFailwithUsername" duration-ms="14449" started-at="2018-09-07T10:52:32Z" data-provider="TestSheet" finished-at="2018-09-07T10:52:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[following error occurred during login: Password incorrect.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFailwithUsername -->
+        <test-method status="PASS" signature="stopResult()[pri:0, instance:testCaseDetails.TC002_LoginWrongUsername@544fe44c]" name="stopResult" is-config="true" duration-ms="1140" started-at="2018-09-07T10:52:46Z" finished-at="2018-09-07T10:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopResult -->
+      </class> <!-- testCaseDetails.TC002_LoginWrongUsername -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

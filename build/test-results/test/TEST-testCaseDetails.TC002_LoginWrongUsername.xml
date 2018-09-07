@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCaseDetails.TC002_LoginWrongUsername" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-09-07T11:01:43" hostname="DESKTOP-NRNE4DI" time="80.667">
+  <properties/>
+  <testcase name="LoginFailwithUsername[0](DemoSalesManager1, crmsfa, following error occurred during login: User not found.)" classname="testCaseDetails.TC002_LoginWrongUsername" time="18.645"/>
+  <testcase name="LoginFailwithUsername[1](, crmsfa, username was empty reenter)" classname="testCaseDetails.TC002_LoginWrongUsername" time="16.726"/>
+  <testcase name="LoginFailwithUsername[2](DemoSalesManager, , password was empty reenter)" classname="testCaseDetails.TC002_LoginWrongUsername" time="20.181"/>
+  <testcase name="LoginFailwithUsername[3](DemoSalesManager, crmsfa1, following error occurred during login: Password incorrect.)" classname="testCaseDetails.TC002_LoginWrongUsername" time="25.111"/>
+  <system-out><![CDATA[4
+3
+[[Ljava.lang.String;@7082a16f
+[[Ljava.lang.String;@7082a16f
+[[Ljava.lang.String;@7082a16f
+[[Ljava.lang.String;@7082a16f
+[[Ljava.lang.String;@7082a16f
+[[Ljava.lang.String;@7082a16f
+[[Ljava.lang.String;@7082a16f
+[[Ljava.lang.String;@7082a16f
+[[Ljava.lang.String;@7082a16f
+[[Ljava.lang.String;@7082a16f
+[[Ljava.lang.String;@7082a16f
+[[Ljava.lang.String;@7082a16f
+The Browser chrome Launched Successfully
+text matches
+The Browser chrome Launched Successfully
+text matches
+The Browser chrome Launched Successfully
+text matches
+The Browser chrome Launched Successfully
+text matches
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 20905
+Only local connections are allowed.
+Sep 07, 2018 4:31:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 42873
+Only local connections are allowed.
+Sep 07, 2018 4:32:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 41239
+Only local connections are allowed.
+Sep 07, 2018 4:32:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 9674
+Only local connections are allowed.
+[1536318168.047][WARNING]: Timed out connecting to Chrome, retrying...
+Sep 07, 2018 4:32:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
